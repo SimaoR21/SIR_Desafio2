@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentação da API</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Incluindo o CSS existente -->
+</head>
+<body>
+    <h1>Documentação da API</h1>
+    <p>Esta API oferece as seguintes rotas:</p>
+    <ul>
+        <li><strong>GET /students</strong>: Lista todos os estudantes.</li>
+        <li><strong>GET /students/:id</strong>: Retorna informações de um estudante específico, dado o ID.</li>
+        <li><strong>POST /students</strong>: Cria um novo estudante (requer um corpo de requisição com <code>name</code>, <code>course</code>, e <code>year</code>).</li>
+        <li><strong>PUT /students/:id</strong>: Atualiza as informações de um estudante existente.</li>
+        <li><strong>DELETE /students/:id</strong>: Elimina um estudante específico.</li>
+    </ul>
+    
+    <!-- Botão para voltar à página inicial -->
+    <div class="navigation-buttons">
+        <button onclick="location.href='/'">Voltar à Página Inicial</button>
+    </div>
+</body>
+</html>
